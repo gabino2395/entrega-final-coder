@@ -1,7 +1,6 @@
 const express = require('express')
 const { getProducts, postProduct, putProduct, deleteProduct, deleteAllProducts, errorRoute } = require('../controllers/productos.controller.js')
-// const { getProducts, postProduct, putProduct, deleteProduct, deleteAllProducts, errorRoute } = require('../controllers/productoFirebase.js')
-// const { getProducts, postProduct, putProduct, deleteProduct, deleteAllProducts, errorRoute } = require('../controllers/productoMongo.js')
+
 const { Router } = express
 
 const routerProductos = Router()

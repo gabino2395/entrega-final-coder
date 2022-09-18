@@ -1,7 +1,7 @@
-
+const firebase = require ('../configuraciones/config.js')
 class ContenedorFirebase {
     constructor() {
-        super('productos')
+        super(firebase)
     }
 
     async save(obj) {

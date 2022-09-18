@@ -77,4 +77,7 @@ class ContenedorMongo {
     }
 }
 
-export default ProductosDaoArchivos;
+export default ContenedorMongo;
+
+
+

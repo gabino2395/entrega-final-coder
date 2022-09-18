@@ -1,10 +1,8 @@
 const { response } = require('express')
 
 
-// const { Contenedor } = require('../../productos/contenedor.js')
-// const contenedor = new Contenedor('./productos.txt')
+const ProductosDaoArchivo=require('../daos/index.js')
 
-const ProductosDaoArchivo=require('../daos/productos/ProductosDaoArchivo.js')
 const productoDaoArchivo = new ProductosDaoArchivo()
 
 const getProducts = async (req, res = response) => {

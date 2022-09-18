@@ -1,7 +1,9 @@
 const { response } = require('express')
 // const { Contenedor } = require('../../productos/contenedor.js')
 // const contenedor = new Contenedor('./DB/carrito.txt')
-const CarritoDaoArchivo=require('../daos/carrito/CarritoDaoArchivo.js')
+// const CarritoDaoArchivo=require('../daos/carrito/CarritoDaoArchivo.js')
+const CarritoDaoArchivo=require('../daos/index.js')
+
 const carritoDaoArchivo= new CarritoDaoArchivo()
 
 const getCartProductById = async (req, res= response) => {
